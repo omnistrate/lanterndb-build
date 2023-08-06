@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  postgresql:
+    image: lanterndb
+    ports:
+      - '5432:5432'
+    volumes:
+      - 'lanterndb_data:/bitnami/postgresql'
+    environment:
+      - 'ALLOW_EMPTY_PASSWORD=yes'
+
+volumes:
+  lanterndb_data:
+    driver: local

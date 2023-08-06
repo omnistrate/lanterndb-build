@@ -1,0 +1,6 @@
+[submodule "pgvector"]
+	path = pgvector
+	url = https://github.com/pgvector/pgvector
+[submodule "lanterndb"]
+	path = lanterndb
+	url = https://github.com/lanterndata/lanterndb
